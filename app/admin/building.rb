@@ -1,4 +1,5 @@
 ActiveAdmin.register Building do
+  permit_params :name, :address, :postal_code, :latitude, :longitude, :ldap_name
 
 
   # See permitted parameters documentation:
