@@ -1,4 +1,5 @@
 ActiveAdmin.register Feed do
+  permit_params :url
 
 
   # See permitted parameters documentation:
