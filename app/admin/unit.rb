@@ -1,4 +1,5 @@
 ActiveAdmin.register Unit do
+  permit_params :name, :acronym, :ldap_name
 
 
   # See permitted parameters documentation:
